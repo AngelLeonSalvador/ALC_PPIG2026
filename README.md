@@ -1,2 +1,3 @@
-# ALC_PPIG2026
-Primer Parcial - Informática General Cátedra Drelichman 2026
+Ángel León Cabral
+Primer Parcial - Informática General
+Artes Multimediales - UNA
