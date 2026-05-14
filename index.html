@@ -1,3 +1,18 @@
+<!--
+Todas las páginas HTML deben incluir 
+un encabezado, 
+un menú de navegación, 
+área de contenido con secciones y/o artículos 
+y un pie de página. .
+Todo el contenido de cada página deberá estar contenido en un 
+elemento de bloque que debe tener definido un ancho máximo (definido en píxeles).
+El diseño también debe incluir colores de fondo y colores de texto, 
+márgenes y padding que permitan una correcta organización y legibilidad del contenido.
+
+
+El encabezado, el menú de navegación y el pie de página deben ser iguales en todas las páginas. 
+-->
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -11,5 +26,42 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Home - Rafael Lozano-Hemmer</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Rafael Lozano-Hemmer</h1>
+      <h2>Interactividad, espacio público y arte tecnológico</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="trayectoria.html">Trayectoria</a></li>
+        <li><a href="obras.html">Obras</a></li>
+        <li><a href="colectivo.html">Colectivo</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="main_home">
+        <img src="img/lozano-hemmer-1.jpg" alt="Rafael Lozano-Hemmer" />
+        <cite
+          >“Me interesa crear plataformas para la participación, donde la obra
+          no existe sin la presencia del público.” <br />—
+          <b>Rafael Lozano-Hemmer</b></cite
+        >
+      </div>
+    </main>
+    <footer>
+      <div class="cont_footer">
+        <address>
+          <p>
+            Para contactarse escribir a
+            <a href="mailto:rafael@artedigital.com">rafael@artedigital.com</a>
+          </p>
+
+          <a href="https://github.com/AngelLeonSalvador" id="alumno"
+            >Ángel León Salvador (Ángel Cabral)</a
+          >
+        </address>
+      </div>
+    </footer>
+  </body>
 </html>
